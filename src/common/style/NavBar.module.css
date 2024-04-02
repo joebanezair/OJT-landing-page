@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.1rem;
+    color: #fff;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logoText {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.logoImage {
+    width: 3rem;
+    height: 3.56rem;
+    margin-right: 1rem;
+}
+
+.navList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 16.25rem;
+}
+
+.navItem {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.navItem:hover {
+    color: #fff;
+}
+
+.navItem:nth-child(1) {
+    font-size: 1.5rem;
+    border-bottom: 0.25rem solid white;
+    padding-bottom: 0.87rem;
+}

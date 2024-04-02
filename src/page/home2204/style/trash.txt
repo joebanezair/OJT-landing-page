@@ -1,0 +1,38 @@
+
+  {/* <div id='pulse' /> */}
+#pulse {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  border-radius: 100%; /* Adjusted border-radius to make a perfect circle */
+  background-color: transparent;
+  margin-left: -12%;
+  animation: pulse-animation 2s infinite ease-in-out; /* Adjusted animation duration to control the speed of pulsing */
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0 rgba(26, 1, 61, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 0 20px rgba(26, 1, 61, 0.3); /* Adjusted shadow size for pulsing effect */
+  }
+  100% {
+    box-shadow: 0 0 0 100px rgba(26, 1, 61, 0.7);
+  }
+}
+
+
+
+/* #phone-container{
+    background-image: url('../image/img-phone.png');
+    height: 500px;
+    width: 250px;
+    background-size: 100%;
+    position: absolute;
+    background-position: center;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: -10%;
+    transform: rotate(-5deg); 
+} */

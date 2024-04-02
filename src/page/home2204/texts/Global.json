@@ -1,0 +1,28 @@
+{
+    "topcta":{
+        "howtoplay":"玩法",
+        "aboutus":"关于我们",
+        "contact":"联系我们",
+        "signin":"登入",
+        "signup":"注册"
+    },
+    "header_text":{
+        "home":"来玩",
+        "homepage":"首页",
+        "glossary":"德州扑克术语表",
+        "translate":"翻译",
+        "scanqrcode":"手机扫码下载",
+        "Holdem":"德州扑克约局社区",
+        "HoldemBot":"一起，来玩",
+        "Hello":"你好",
+        "WebVersionLink":"网页版链接",
+        "WebVersionLinkSupport01":"(支持pc、苹果、安卓)",
+        "Webv01":"将网页版添加至手机桌面",
+        "Apple":"苹果商店下载",
+        "AppleBot":"(支持苹果)",
+        "Android":"安卓本地下载",
+        "AndroidBot":"(支持安卓)",
+        "TrendHot":"热门",
+        "Bbot":"最新版本"
+    }
+}
